@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+	--color-body:#878787;
+	--color-negro:#000;
+	--color-azul:#2E73E8;
+	--color-morado: #8539D9;
+	--bg-header:#000;
+	--bg-gris:#fafafa;
+	--bg-footer: #121212;
+}
+
+
+body{
+	font-family: "Roboto", sans-serif;
+	font-size: 17px;
+	color: var(--color-body);
+	font-weight: 300;
+}
+
+@font-face{
+	font-family: 'Poetsen';
+	src: url("../fonts/PoetsenOne-Regular.ttf") format("TrueType");	
+}
+
+header{
+	background-color: var(--bg-header);
+	padding: 20px 0;
+}
+
+
+#hero{
+	background-color: rgba(0,0,0,0.50);
+	background-blend-mode: multiply;
+	background-image: url("../img/v44-oshine-00.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 100px 0;
+	text-align: center;
+	color: #fff;
+}
+#hero h3{
+	font-family: "Playfair Display", serif;
+	font-style: italic;
+	font-size: 20px;
+	font-weight: 400;
+}
+#hero h1{
+	font-size: 70px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+.btn{
+	border-radius: 0;
+	text-transform: uppercase;
+	padding: 12px 30px;
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+
+
+.section{
+	padding: 8% 0;
+}
+
+.title{
+	color: var(--color-negro);
+	font-size: 42px;
+	margin-bottom: 30px;
+}
+.subtitle{
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.7;
+	margin-bottom: 30px;
+}
+
+
+
+#introduction .title{
+	margin-top: 25%;
+}
+
+.btn-oshine{
+	background: linear-gradient(120deg, rgba(133,57,217,1) 35%, rgba(46,115,232,1) 75%);
+	color: #fff;
+}
+.btn-oshine:hover{
+	background: linear-gradient(120deg, rgba(46,115,232,1) 35%, rgba(46,115,232,1) 75%);
+	color: #fff;
+}
+
+.info-introduction{
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+#introduction img{
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+
+
+#services{
+	background-color: var(--bg-gris);
+	text-align: center;
+}
+
+#services h3{
+	color: #303132;
+	font-size: 20px;
+	font-weight: 500;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.icon-circle{
+	height: 100px;
+	width: 100px;
+	line-height: 100px;
+	background-color: #fff;
+	box-shadow: 0px 0px 15px 4px #f2f2f2;
+	border-radius: 100%;
+	color: var(--color-azul);
+	font-size: 30px;
+	transition: all 0.4s ease-in-out;
+}
+
+.icon-circle:hover{
+	color: #fff;
+	background-color: var(--color-morado);
+	transition: all 0.4s ease-in-out;
+}
+
+
+footer{
+	background-color: var(--bg-footer);
+	color: #fff;
+	font-size: 14px;
+	padding: 30px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
