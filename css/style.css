@@ -8,6 +8,7 @@
 	--bg-header:#000;
 	--bg-gris:#fafafa;
 	--bg-footer: #121212;
+	--bg-inputs: #f1f2f3;
 }
 
 
@@ -26,6 +27,13 @@ body{
 header{
 	background-color: var(--bg-header);
 	padding: 20px 0;
+}
+
+footer{
+	background-color: var(--bg-footer);
+	color: #fff;
+	font-size: 14px;
+	padding: 30px 0;
 }
 
 
@@ -134,12 +142,55 @@ header{
 }
 
 
-footer{
-	background-color: var(--bg-footer);
-	color: #fff;
-	font-size: 14px;
-	padding: 30px 0;
+
+#hero.bg-contact{
+	background-image: url("../img/bg-contact-us.jpg");
+	background-size: cover;
+	background-position: top center;
 }
+
+
+.bg-gradient{
+	background: linear-gradient(120deg, rgba(133,57,217,1) 35%, rgba(46,115,232,1) 75%) !important;
+	border-radius: 10px;
+}
+
+#icons-contact{
+	text-align: center;
+	color: #fff;
+	margin-top: -7%;
+}
+
+#icons-contact i{
+	width: 75px;
+	height: 75px;
+	line-height: 75px;
+	background-color: rgba(255,255,255,0.20);
+	border-radius: 100%;
+	margin-bottom: 20px;
+	font-size: 24px;
+}
+
+#icons-contact .section{
+	padding: 5% 0;
+}
+
+
+#contact-form input,
+#contact-form textarea{
+	background-color: var(--bg-inputs);
+	padding: 14px;
+	border: 0;
+	border-radius: 0;
+	color: #aaa;
+	font-size: 14px;
+}
+
+
+
+
+
+
 
 
 
